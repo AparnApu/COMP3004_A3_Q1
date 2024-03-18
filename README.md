@@ -4,10 +4,10 @@
 
 ## Introduction
 It is a Python application that connects to a PostgreSQL database (School) and performs specific CRUD (Create, Read, Update, Delete) operations.
-- `getAllStudents()`: Retrieves and displays all records from the students table.
-- `addStudent(first_name, last_name, email, enrollment_date)`: Inserts a new student record into the students table.
-- `updateStudentEmail(student_id, new_email)`: Updates the email address for a student with the specified student_id.
-- `deleteStudent(student_id)`: Deletes the record of the student with the specified student_id.
+- getAllStudents(): Retrieves and displays all records from the students table.
+- addStudent(first_name, last_name, email, enrollment_date): Inserts a new student record into the students table.
+- updateStudentEmail(student_id, new_email): Updates the email address for a student with the specified student_id.
+- deleteStudent(student_id): Deletes the record of the student with the specified student_id.
 
 ## Instructions
 1. Create a database "School" in PostgreSQL.
@@ -24,6 +24,6 @@ It is a Python application that connects to a PostgreSQL database (School) and p
 4. Run the code via the command `python3 perform_crud.py`.
     1. Enter your password
   
-5. Now you can use the command-line prompts and user interface to perform various CRUD operations.
+5. Now, you can use the command-line prompts and user interface to perform various CRUD operations.
 
 ## Video Demonstration

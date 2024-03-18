@@ -1,6 +1,6 @@
 # COMP 3005 Winter 2024
-### Assignment 3, Question 1
-### Aparna Apu, 101194937
+#### Assignment 3, Question 1
+#### Aparna Apu, 101194937
 
 ## Introduction
 It is a Python application that connects to a PostgreSQL database (School) and performs specific CRUD (Create, Read, Update, Delete) operations.

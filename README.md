@@ -11,7 +11,8 @@ It is a Python application that connects to a PostgreSQL database (School) and p
 
 ## Instructions
 1. Create a database "School" in PostgreSQL.
-  1. You may populate it, but the program will write over it!
+    1. You may populate it, but the program will write over it!
+
 2.
 
 ## Video Demonstration

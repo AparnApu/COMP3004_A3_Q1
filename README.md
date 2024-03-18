@@ -27,4 +27,4 @@ It is a Python application that connects to a PostgreSQL database (School) and p
 5. Now, you can use the command-line prompts and user interface to perform various CRUD operations.
 
 ## Video Demonstration
-[https://youtu.be/g3haNKlnqFc]
+https://youtu.be/g3haNKlnqFc

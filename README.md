@@ -13,6 +13,17 @@ It is a Python application that connects to a PostgreSQL database (School) and p
 1. Create a database "School" in PostgreSQL.
     1. You may populate it, but the program will write over it!
 
-2.
+2. Install `psycopg` in your terminal
+    1. Ensure you have installed `python` (`python3 --version`)
+    2. Ensure you have updated your `pip` (`pip install --upgrade pip`)
+    3. Now run `pip install "psycopg[binary]"`
+  
+3. In the source code (`perform_crud.py`), edit the setup variables (lines 19 - 22) to suit your setup.
+    1. You will be prompted for a password later when running the program
+  
+4. Run the code via the command `python3 perform_crud.py`.
+    1. Enter your password
+  
+5. Now you can use the command-line prompts and user interface to perform various CRUD operations.
 
 ## Video Demonstration

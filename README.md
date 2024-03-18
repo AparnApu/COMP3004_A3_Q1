@@ -1,5 +1,5 @@
 # COMP 3005 Winter 2024
-### Assignment 3 Question 1
+### Assignment 3, Question 1
 ### Aparna Apu, 101194937
 
 ## Introduction
@@ -10,6 +10,8 @@ It is a Python application that connects to a PostgreSQL database (School) and p
 - deleteStudent(student_id): Deletes the record of the student with the specified student_id.
 
 ## Instructions
-1.
+1. Create a database "School" in PostgreSQL.
+  a. You may populate it, but the program will write over it!
+2.
 
 ## Video Demonstration

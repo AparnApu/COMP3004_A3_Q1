@@ -168,6 +168,7 @@ def main():
                 try:
                     addStudent(first_name, last_name, email, enroll_date)
                 except Exception as err:
+                    conn.rollback()
                     print("\nERR: Please ensure that you have entered valid non-empty strings and the right date format!\n", err)
         
         # Update Student Email
@@ -182,6 +183,7 @@ def main():
                 try:
                     updateStudentEmail(s_id, email)
                 except Exception as err:
+                    conn.rollback()
                     print("\nERR: Please ensure that you have entered valid non-empty strings!\n", err)
             
         # Delete Student
@@ -195,6 +197,7 @@ def main():
                 try:
                     deleteStudent(s_id)
                 except Exception as err:
+                    conn.rollback()
                     print("\nERR: Please ensure that you have entered valid non-empty strings!\n", err)
             
 

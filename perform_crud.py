@@ -8,6 +8,7 @@
 # https://www.w3schools.com/sql/sql_update.asp
 # https://www.w3schools.com/sql/sql_delete.asp
 # https://www.psycopg.org/psycopg3/docs/basic/params.html
+# https://www.psycopg.org/docs/connection.html
 ###############################################################################################
 
 import psycopg
